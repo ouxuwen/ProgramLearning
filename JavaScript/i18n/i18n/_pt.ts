@@ -1,0 +1,48 @@
+import { LocaleKeys } from '../interfaces/i18n';
+
+const pt: LocaleKeys = {
+  locale: 'pt',
+  pluralRuleFunction: () => '',
+
+  fast_file_transfer: 'Transferência rápida de arquivos',
+  qrcode_genting: 'O código QR está sendo gerado, aguarde um momento',
+  no_eceived: 'Documentos ainda não recebidos',
+  network_error_msg: 'Exceção de rede, falha ao gerar código bidimensional',
+  network_setting: 'configuração de rede',
+  scanning_upload_files: 'Carregar verificação de arquivo',
+  number_of_documents_received: 'Número de documentos recebidos',
+  acceptance_failure: 'Falha em aceitar',
+  retry: 'Retorna',
+  network_file_error_msg: 'As falhas atuais da rede podem afetar a recepção de arquivos',
+  open: 'Abrir',
+  insert_whiteboard: 'Inserir no quadro branco',
+  save: 'Salve',
+  delete: 'Remover',
+  save_to: 'Salvar como...',
+  saving: 'Salvando ...',
+  save_failed: 'Erro ao salvar',
+  warm_hint: 'Lembrete',
+  close_msg: 'Os arquivos enviados serão excluídos após o fechamento',
+  looseHands_and_insert_whiteboard: 'Arraste e solte no quadro',
+  files_received: 'Arquivos recebidos',
+  cancel: 'Cancelar',
+  save_successfully: 'Salva com sucesso',
+  disk: 'Disco',
+  local: 'Local',
+  confirm: 'Aceitar',
+  import_successfully: 'Importação bem sucedida',
+  import_failed: 'Falha na importação',
+  open_failed: 'Erro de abertura',
+  retry_failed: 'Tentativa falhou, verifique a rede',
+  close: 'Perto',
+  select_all: 'Selecionar tudo',
+  select: 'Selecione',
+  cancel_select_all: 'Cancelar selecionar tudo',
+  open_file_path: 'Abrir caminho do arquivo',
+  delete_confirm_msg: 'Excluir arquivo selecionado',
+  done: 'Feito',
+  saved_to: 'Salvar em',
+  back: 'Costas'
+};
+
+export default pt;

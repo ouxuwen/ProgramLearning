@@ -1,0 +1,48 @@
+import { LocaleKeys } from '../interfaces/i18n';
+
+const th: LocaleKeys = {
+  locale: 'th',
+  pluralRuleFunction: () => '',
+
+  fast_file_transfer: 'ถ่ายโอนไฟล์อย่างรวดเร็ว',
+  qrcode_genting: 'กำลังสร้างรหัส QR โปรดรอสักครู่',
+  no_eceived: 'เอกสารที่ยังไม่ได้รับ',
+  network_error_msg: 'ข้อยกเว้นด้านเน็ตเวิร์ค ความล้มเหลวในการสร้างรหัสสองมิติ',
+  network_setting: 'การตั้งค่าเครือข่าย',
+  scanning_upload_files: 'กำลังสแกนไฟล์อัพโหลด',
+  number_of_documents_received: 'จำนวนเอกสารที่ได้รับ',
+  acceptance_failure: 'การยอมรับล้มเหลว',
+  retry: 'ลองใหม่',
+  network_file_error_msg: 'ความผิดปกติของเน็ตเวิร์คปัจจุบันอาจส่งผลกระทบต่อการรับไฟล์',
+  open: 'เปิด',
+  insert_whiteboard: 'แทรกไวท์บอร์ด',
+  save: 'การเก็บรักษา',
+  delete: 'ลบ',
+  save_to: 'บันทึกไปที่',
+  saving: 'การรักษา',
+  save_failed: 'การบันทึกล้มเหลว',
+  warm_hint: 'การเตือน',
+  close_msg: 'ไฟล์ที่อัพโหลดจะถูกล้างหลังจากปิด',
+  looseHands_and_insert_whiteboard: 'แทรกไวท์บอร์ด',
+  files_received: 'ได้รับไฟล์แล้ว',
+  cancel: 'ยกเลิก',
+  save_successfully: 'บันทึกเรียบร้อยแล้ว',
+  disk: 'ดิสก์',
+  local: 'โลคอล',
+  confirm: 'ตกลง',
+  import_successfully: 'การนำเข้าสำเร็จ',
+  import_failed: 'การนำเข้าล้มเหลว',
+  open_failed: 'ความล้มเหลวในการเปิด',
+  retry_failed: 'ความพยายามล้มเหลว',
+  close: 'ปิด',
+  select_all: 'เลือกทั้งหมด',
+  select: 'เลือก',
+  cancel_select_all: 'ยกเลิกเลือกทั้งหมด',
+  open_file_path: 'เปิดเส้นทางไฟล์',
+  delete_confirm_msg: 'ลบไฟล์ที่เลือก',
+  done: 'เสร็จแล้ว',
+  saved_to: 'บันทึกที่',
+  back: 'กลับ'
+};
+
+export default th;

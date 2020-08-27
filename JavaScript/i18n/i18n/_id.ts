@@ -1,0 +1,48 @@
+import { LocaleKeys } from '../interfaces/i18n';
+
+const id: LocaleKeys = {
+  locale: 'id',
+  pluralRuleFunction: () => '',
+
+  fast_file_transfer: 'Transfer Berkas Cepat',
+  qrcode_genting: 'Kode QR sedang dibuat, mohon tunggu sebentar',
+  no_eceived: 'Dokumen belum diterima',
+  network_error_msg: 'Jaringan tidak biasa, kode dua dimensi gagal dibuat',
+  network_setting: 'Pengaturan jaringan',
+  scanning_upload_files: 'Memindai Berkas Unggahan',
+  number_of_documents_received: 'Jumlah dokumen diterima',
+  acceptance_failure: 'Penerimaan gagal',
+  retry: 'Coba kembali',
+  network_file_error_msg: 'Anomali jaringan saat ini dapat berpengaruh pada penerimaan berkas',
+  open: 'Buka',
+  insert_whiteboard: 'Masukkan whiteboard',
+  save: 'Penyimpanan',
+  delete: 'Menghapus',
+  save_to: 'Menyimpan ke',
+  saving: 'Menyimpan',
+  save_failed: 'Gagal menyimpan',
+  warm_hint: 'Pengingat',
+  close_msg: 'Berkas yang telah diunggah akan dihapus setelah ditutup',
+  looseHands_and_insert_whiteboard: 'Masukkan whiteboard',
+  files_received: 'berkas diterima',
+  cancel: 'Batalkan',
+  save_successfully: 'Berhasil menyimpan',
+  disk: 'disk',
+  local: 'Lokal',
+  confirm: 'OK',
+  import_successfully: 'Impor berhasil',
+  import_failed: 'Gagal mengimpor',
+  open_failed: 'Gagal membuka',
+  retry_failed: 'Coba lagi gagal, silakan periksa jaringan',
+  close: 'Menutup',
+  select_all: 'Pilih Semua',
+  select: 'Pilih',
+  cancel_select_all: 'Batal pilih semua',
+  open_file_path: 'Buka jalur file',
+  delete_confirm_msg: 'Hapus file yang dipilih',
+  done: 'Selesai',
+  saved_to: 'Menyimpan ke',
+  back: 'Kembali'
+};
+
+export default id;

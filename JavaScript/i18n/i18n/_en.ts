@@ -1,0 +1,48 @@
+import { LocaleKeys } from '../interfaces/i18n';
+
+const en: LocaleKeys = {
+  locale: 'en',
+  pluralRuleFunction: () => '',
+
+  fast_file_transfer: 'Fast File Transfer',
+  qrcode_genting: 'QR code is being generated,please wait a moment',
+  no_eceived: 'Documents not yet received',
+  network_error_msg: 'Network exception, two-dimensional code generation failure',
+  network_setting: 'Network Settings',
+  scanning_upload_files: 'Scanning Upload Files',
+  number_of_documents_received: 'Number of documents received',
+  acceptance_failure: 'Acceptance failure',
+  retry: 'retry',
+  network_file_error_msg: 'Current network anomalies may affect file reception',
+  open: 'open',
+  insert_whiteboard: 'Insert whiteboard',
+  save: 'Preservation',
+  delete: 'delete',
+  save_to: 'Save to',
+  saving: 'Preserving',
+  save_failed: 'Save failed',
+  warm_hint: 'Reminder',
+  close_msg: 'Uploaded files will be cleared after closing',
+  looseHands_and_insert_whiteboard: 'Insert whiteboard',
+  files_received: 'files received',
+  cancel: 'Cancel',
+  save_successfully: 'Save successfully',
+  disk: 'Disk',
+  local: 'Local',
+  confirm: 'OK',
+  import_successfully: 'Import successfully',
+  import_failed: 'Import failed',
+  open_failed: 'Open failure',
+  retry_failed: 'Retry failed, please check the network',
+  close: 'Close',
+  select_all: 'Select all',
+  select: 'Select',
+  cancel_select_all: 'Cancel select all',
+  open_file_path: 'Open file path',
+  delete_confirm_msg: 'Delete selected file',
+  done: 'Done',
+  saved_to: 'Save to',
+  back: 'Back'
+};
+
+export default en;

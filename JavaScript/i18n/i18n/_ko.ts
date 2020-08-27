@@ -1,0 +1,48 @@
+import { LocaleKeys } from '../interfaces/i18n';
+
+const ko: LocaleKeys = {
+  locale: 'ko',
+  pluralRuleFunction: () => '',
+
+  fast_file_transfer: '빠른 파일 전송',
+  qrcode_genting: 'QR코드 생성 중. 잠시 기다려주십시오.',
+  no_eceived: '파일을 아직 수신하지 못했습니다.',
+  network_error_msg: '네트워크 오류, QR코드 생성 실패',
+  network_setting: '네트워크 설정',
+  scanning_upload_files: '스캔파여 파일 업로드',
+  number_of_documents_received: '받은 파일 수',
+  acceptance_failure: '수신 실패',
+  retry: '다시 시도',
+  network_file_error_msg: '현재 내트워크 상태가 파일 수신에 영향을 줄 수 있습니다.',
+  open: '열기',
+  insert_whiteboard: '화이트보드 삽입',
+  save: '저장',
+  delete: '삭제',
+  save_to: '저장',
+  saving: '에 저장',
+  save_failed: '저장 실패',
+  warm_hint: '리마인더',
+  close_msg: '종료된 후 업로드된 파일은 삭제됩니다.',
+  looseHands_and_insert_whiteboard: '화이트보드 삽입',
+  files_received: '파일',
+  cancel: '취소',
+  save_successfully: '저장 성공',
+  disk: '디스크',
+  local: '로컬',
+  confirm: '확인',
+  import_successfully: '불러오기 성공',
+  import_failed: '불러오기 실패',
+  open_failed: '열기 실패',
+  retry_failed: '재시도 실패. 네트워크를 확인하여 주십시오.',
+  close: '닫기',
+  select_all: '모두 선택',
+  select: '고르다',
+  cancel_select_all: '취소 모두 선택',
+  open_file_path: '파일 경로 열기',
+  delete_confirm_msg: '선택한 파일 삭제',
+  done: '끝난',
+  saved_to: '저장',
+  back: '뒤'
+};
+
+export default ko;

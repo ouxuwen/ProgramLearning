@@ -1,0 +1,48 @@
+import { LocaleKeys } from '../interfaces/i18n';
+
+const vi: LocaleKeys = {
+  locale: 'vi',
+  pluralRuleFunction: () => '',
+
+  fast_file_transfer: 'Fast File Transfer (Truyền Tệp Nhanh)',
+  qrcode_genting: 'Đang tạo mã QR, xin đợi trong giây lát',
+  no_eceived: 'Chưa nhận được tài liệu',
+  network_error_msg: 'Ngoại lệ mạng, lỗi tạo mã hai chiều',
+  network_setting: 'Thiết lập mạng',
+  scanning_upload_files: 'Đang quét các tệp tải lên',
+  number_of_documents_received: 'Số tài liệu nhận được',
+  acceptance_failure: 'Chấp nhận thất bại',
+  retry: 'Thử lại',
+  network_file_error_msg: 'Các bất thường về mạng hiện tại có thể ảnh hưởng đến việc nhận tệp',
+  open: 'Mở',
+  insert_whiteboard: 'Chèn whiteboard',
+  save: 'Duy trì',
+  delete: 'Xóa',
+  save_to: 'Lưu vào',
+  saving: 'Đang duy trì',
+  save_failed: 'Lưu không thành công',
+  warm_hint: 'Nhắc nhở',
+  close_msg: 'Các tệp đã tải lên sẽ bị xóa sau khi đóng',
+  looseHands_and_insert_whiteboard: 'Chèn whiteboard',
+  files_received: 'tệp nhận được',
+  cancel: 'Hủy',
+  save_successfully: 'Lưu thành công',
+  disk: 'USB',
+  local: 'Cục bộ',
+  confirm: 'OK',
+  import_successfully: 'Nhập thành công',
+  import_failed: 'Nhập thất bại',
+  open_failed: 'Mở thất bại',
+  retry_failed: 'Thử lại không thành công, vui lòng kiểm tra mạng',
+  close: 'Đóng',
+  select_all: 'Chọn tất cả',
+  select: 'Lựa chọn',
+  cancel_select_all: 'Hủy chọn tất cả',
+  open_file_path: 'Mở đường dẫn tệp',
+  delete_confirm_msg: 'Xóa tệp đã chọn',
+  done: 'Làm xong',
+  saved_to: 'Lưu vào',
+  back: 'Trở lại'
+};
+
+export default vi;

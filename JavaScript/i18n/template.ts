@@ -1,0 +1,48 @@
+import { LocaleKeys } from '../interfaces/i18n';
+
+const zh_cn: LocaleKeys = {
+  locale: {{locale}},
+  pluralRuleFunction: () => '',
+
+  fast_file_transfer: {{fast_file_transfer}},
+  qrcode_genting: {{qrcode_genting}},
+  no_eceived: {{no_eceived}},
+  network_error_msg: {{network_error_msg}},
+  network_setting: {{network_setting}},
+  scanning_upload_files: {{scanning_upload_files}},
+  number_of_documents_received: {{number_of_documents_received}},
+  acceptance_failure: {{acceptance_failure}},
+  retry: {{retry}},
+  network_file_error_msg: {{network_file_error_msg}},
+  open: {{open}},
+  insert_whiteboard: {{insert_whiteboard}},
+  save: {{save}},
+  delete: {{delete}},
+  save_to: {{save_to}},
+  saving: {{saving}},
+  save_failed: {{save_failed}},
+  warm_hint: {{warm_hint}},
+  close_msg: {{close_msg}},
+  looseHands_and_insert_whiteboard: {{looseHands_and_insert_whiteboard}},
+  files_received: {{files_received}},
+  cancel: {{cancel}},
+  save_successfully: {{save_successfully}},
+  disk: {{disk}},
+  local: {{local}},
+  confirm: {{confirm}},
+  import_successfully: {{import_successfully}},
+  import_failed: {{import_failed}},
+  open_failed: {{open_failed}},
+  retry_failed: {{retry_failed}},
+  close: {{close}},
+  select_all: {{select_all}},
+  select: {{select}},
+  cancel_select_all: {{cancel_select_all}},
+  open_file_path: {{open_file_path}},
+  delete_confirm_msg: {{delete_confirm_msg}},
+  done: {{done}},
+  saved_to: {{saved_to}},
+  back: {{back}}
+};
+
+export default zh_cn;

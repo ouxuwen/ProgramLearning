@@ -1,0 +1,48 @@
+import { LocaleKeys } from '../interfaces/i18n';
+
+const zh_tw: LocaleKeys = {
+  locale: 'zh_tw',
+  pluralRuleFunction: () => '',
+
+  fast_file_transfer: '文件快傳',
+  qrcode_genting: '二維碼生成中，請稍後',
+  no_eceived: '暫未接收到文件',
+  network_error_msg: '網絡异常，二維碼生成失敗',
+  network_setting: '網絡設定',
+  scanning_upload_files: '掃碼上傳文件',
+  number_of_documents_received: '收到文件數',
+  acceptance_failure: '接收失敗',
+  retry: '重試',
+  network_file_error_msg: '當前網絡异常，可能會影響文件的接收',
+  open: '打開',
+  insert_whiteboard: '插入白板',
+  save: '保存',
+  delete: '删除',
+  save_to: '保存至',
+  saving: '正在保存',
+  save_failed: '保存失敗',
+  warm_hint: '溫馨提示',
+  close_msg: '關閉後，已上傳的文件將會被清空',
+  looseHands_and_insert_whiteboard: '鬆手插入白板',
+  files_received: '個文件已上傳',
+  cancel: '取消',
+  save_successfully: '保存成功',
+  disk: '盤',
+  local: '本地',
+  confirm: '確定',
+  import_successfully: '導入成功',
+  import_failed: '導入失敗',
+  open_failed: '打開失敗',
+  retry_failed: '重試失敗，請檢查網絡',
+  close: '關閉',
+  select_all: '全選',
+  select: '選擇',
+  cancel_select_all: '取消全選',
+  open_file_path: '打開檔位置',
+  delete_confirm_msg: '確定要刪除選中的檔',
+  done: '完成',
+  saved_to: '已保存至',
+  back: '返回'
+};
+
+export default zh_tw;
