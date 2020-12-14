@@ -1,0 +1,12 @@
+{
+  "name": "nyc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "nyc": "nyc instrument ./src ./output "
+  }
+}
